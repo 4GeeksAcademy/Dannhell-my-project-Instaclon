@@ -1,0 +1,63 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(199, 197, 197);
+    margin:0;
+}
+
+h1{
+    display: flex;
+    margin:0;
+    background-color: white;
+    color:black;
+    padding: 15px;
+    justify-content: center;  
+    align-items: center;
+}
+
+.publicaciones{
+    background-color: rgba(235, 233, 233, 0.856);    
+    display:flex;
+    flex-flow:column wrap;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+div.post{
+    display: flex;
+    background-color: white;
+   flex-flow:column;
+    margin: 50px;
+}
+
+div.posthead{
+    display:flex;
+    background-color:white;
+    margin:0%;
+    padding: 5px;
+}
+
+div.posthead span {
+    color:gray ;
+    display: flex;
+    background-color:white;
+    align-items: center;
+    padding:0%;
+   }
+
+div.posthead h2{
+  flex:30px;
+  background-color:white;
+  padding: 0px;
+  margin: 4px;
+}
+
+div.postfooter {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
